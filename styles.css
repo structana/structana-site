@@ -1,0 +1,21 @@
+:root { color-scheme: dark; --bg:#0b0b0e; --panel:#12131a; --ink:#e7e4dd; --muted:#bdb6a8; --line:#232636; --brand:#7a6bff; }
+*{box-sizing:border-box} html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,Segoe UI,Roboto,sans-serif}
+a{color:#cdb8ff;text-decoration:none} a:hover{text-decoration:underline}
+.wrap{padding:22px 22px 0}
+nav{display:flex;gap:18px;align-items:center;justify-content:flex-end;max-width:1100px;margin:0 auto}
+nav .brand{margin-right:auto;font-weight:700}
+.hero{max-width:1100px;margin:8vh auto 6vh;padding:32px;border:1px solid var(--line);border-radius:18px;background:var(--panel)}
+h1{font-size:clamp(28px,5vw,46px);margin:.2rem 0 .6rem}
+.lead{color:var(--muted);font-size:clamp(16px,2.6vw,20px);margin:0 0 1rem}
+.byline{color:var(--muted);margin:.6rem 0 0}
+.cta{display:flex;gap:12px;margin:.4rem 0 0}
+.btn,.ghost{display:inline-block;padding:.8rem 1.1rem;border-radius:12px;font-weight:600;border:1px solid var(--line)}
+.btn{background:var(--brand);color:#fff;border-color:#8477ff} .btn:hover{filter:brightness(1.06)}
+.ghost{color:var(--ink)} .ghost:hover{background:#151722}
+main{max-width:1100px;margin:0 auto;padding:0 22px}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.grid article,.cards .grid article{border:1px solid var(--line);border-radius:16px;padding:18px;background:var(--panel)}
+.cards{margin:32px 0} .cards h2,.how h2,footer h2{margin:10px 0 12px}
+.how{margin:28px 0;border:1px solid var(--line);border-radius:16px;padding:18px;background:var(--panel)}
+footer{max-width:1100px;margin:28px auto;padding:22px;border-top:1px solid var(--line);text-align:center;color:var(--muted)}
+.small{font-size:.9rem;color:var(--muted)}
